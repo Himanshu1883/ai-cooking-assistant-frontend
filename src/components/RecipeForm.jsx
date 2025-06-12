@@ -408,7 +408,7 @@ const RecipeForm = () => {
         stopSpeech();
 
         try {
-            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/generate/`, {
+            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}api/generate/`, {
                 ingredients,
             });
 
