@@ -408,9 +408,10 @@ const RecipeForm = () => {
         stopSpeech();
 
         try {
-            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/generate_recipe/`, {
+            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/generate/`, {
                 ingredients,
             });
+
             setRecipe(response.data.recipe);
         } catch (error) {
             setRecipe("Error: " + (error.response?.data?.error || "Something went wrong"));
