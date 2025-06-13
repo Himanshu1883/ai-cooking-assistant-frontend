@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm animate__animated animate__fadeInDown">
             <div className="container-fluid">
                 <Link className="navbar-brand fw-bold text-warning glow-text" to="/">
-                    🍳 CookAIssist
+                    🍳 Cook Assistant
                 </Link>
                 <button
                     className="navbar-toggler"
@@ -22,7 +22,7 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarNav">
+                {/* <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {user && (
                             <>
@@ -68,7 +68,7 @@ const Navbar = () => {
                             </>
                         )}
                     </ul>
-                </div>
+                </div> */}
             </div>
         </nav>
     );
