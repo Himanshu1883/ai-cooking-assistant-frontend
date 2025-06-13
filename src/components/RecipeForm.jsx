@@ -427,7 +427,7 @@ const RecipeForm = () => {
 
             <div className="container mt-5">
 
-                <h2 className="mb-4">🍳 AI Cooking Assistant</h2>
+                <h2 className="mb-4">Let's Cook</h2>
 
                 <form onSubmit={handleSubmit}>
 
